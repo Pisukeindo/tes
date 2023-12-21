@@ -1,5 +1,5 @@
 import streamlit as st
-from log import login
+import login
 from Manajemen import pertambahan_aset,suplier,karyawan
 from Harian import bahan_baku_harian,quality_control,penjualan_harian,pengeluaran_harian,produksi_harian
 from Laporan import output
@@ -9,7 +9,7 @@ if "username" not in st.session_state:
 
 # Menampilkan halaman sesuai dengan status login
 if st.session_state.username is None:
-    login()
+    login.login()
 else:
     selected_menu = st.sidebar.radio(
         "MENU:",
