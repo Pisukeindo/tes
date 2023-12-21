@@ -45,11 +45,16 @@ else:
         )
 
         if selected_page == "Suplier":
-            
+                        st.title("Quality Control")
+
       #      suplier.suplier()
         elif selected_page == "Pertambahan Aset":
+                        st.title("Quality Control")
+
        #     pertambahan_aset.pertambahan_aset()
         elif selected_page == "Karyawan":
+                        st.title("Quality Control")
+
         #    karyawan.karyawan()
         
 
@@ -61,16 +66,28 @@ else:
 
         if selected_laporan == "Bahan Baku Harian":
          #   output.laporan("bahan_baku_harian")
+                        st.title("Quality Control")
+
         elif selected_laporan == "Pengeluaran Harian":
           #  output.laporan("pengeluaran_harian")
+                        st.title("Quality Control")
+
         elif selected_laporan == "Produksi Harian":
-           # output.laporan("produksi_harian")
+
+                        st.title("Quality Control")
+# output.laporan("produksi_harian")
         elif selected_laporan == "Penjualan Harian":
-            #output.laporan("penjualan_harian")
+
+                        st.title("Quality Control")
+#output.laporan("penjualan_harian")
         elif selected_laporan == "Stok Bahan Baku":
-          #  output.laporan("stok_bahan_baku")
+
+                        st.title("Quality Control")
+#  output.laporan("stok_bahan_baku")
         elif selected_laporan == "Quality Control":
-           # output.laporan("qc")
+
+                        st.title("Quality Control")
+# output.laporan("qc")
 
 
     elif selected_menu == "Laporan Manajemen":
@@ -80,9 +97,14 @@ else:
         )
 
         if selected_laporan == "Pertambahan Aser":
-  #          output.laporan("Pertambahan Aset")
+            st.title("Quality Control")
+
+            #          output.laporan("Pertambahan Aset")
         elif selected_laporan == "Suplier":
- #           output.laporan("suplier")
+            st.title("Quality Control")
+
+            #           output.laporan("suplier")
         elif selected_laporan == "Karyawan":
 #            output.laporan("karyawan")
      
+            st.title("Quality Control")
